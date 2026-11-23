@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTrack - Student Login</title>
+    <link rel="stylesheet" href="stylle.css">
+</head>
+
+<body class="login-page">
+
+    <div class="login-container">
+
+        <div class="logo">
+            <div class="logo-icon">E</div>
+            <h1>EduTrack</h1>
+        </div>
+
+        <p class="subtitle">Student Management System</p>
+
+        <form id="loginForm">
+
+            <label>Student ID</label>
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Student ID"
+                required
+            >
+
+            <label>Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                required
+            >
+
+            <button type="submit" class="login-btn">
+                Login
+            </button>
+
+        </form>
+
+        <p id="errorMessage" class="error-message"></p>
+
+        <div class="demo-login">
+            <p><strong>Demo Login</strong></p>
+            <p>Student ID: <b>student123</b></p>
+            <p>Password: <b>12345</b></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
