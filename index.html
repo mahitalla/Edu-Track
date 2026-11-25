@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduTrack - Student Login</title>
-    <link rel="stylesheet" href="stylle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="login-page">
@@ -20,9 +20,22 @@
 
         <form id="loginForm">
 
-            <label>Student ID</label>
+            <label for="username">Student ID</label>
             <input
-              
+                type="text"
+                id="username"
+                placeholder="Enter Student ID"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                required
+            >
+
             <button type="submit" class="login-btn">
                 Login
             </button>
